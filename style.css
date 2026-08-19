@@ -39,3 +39,14 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.main-content {
+    background-color: #E2E8F0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.announcements-container,
+.trending-container {
+    grid-column: 2;
+}
