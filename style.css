@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.sidebar {
+    background-color: #1992D4;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.logo,
+.nav,
+.help {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
