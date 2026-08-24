@@ -56,7 +56,7 @@ body {
 .main-content {
     background-color: #E2E8F0;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
 }
 
 .announcements-container,
@@ -69,8 +69,8 @@ input[type="search"]
     background-color: #E2E8F0;
     border: none;
     border-radius: 20px;
-    height: 50%;
-    padding: 0 1ch;
+    height: 60%;
+    padding: 0 2ch;
 }
 
 .search {
@@ -125,4 +125,41 @@ input[type="search"]
     padding: 10px 30px;
     border-radius: 20px;
     width: 120px;
+}
+
+.main-content {
+    padding: 60px 30px;
+}
+
+.projects-container {
+    display: grid;
+    align-content: start;
+    gap: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project {
+    background-color: #FFFFFF;
+    border-left: 10px solid #F0B429;
+    border-radius: 10px;
+    padding: 40px 20px;
+    display: grid;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.project-text p {
+    color: #9E9E9E;
+}
+
+.project-actions {
+    display: grid;
+    justify-content: end;
+    grid-auto-flow: column;
+    gap: 20px;
 }
