@@ -223,3 +223,12 @@ input[type="search"]
 .project-name {
     color: #9E9E9E;
 }
+
+svg {
+    fill: #FFFFFF;
+}
+
+.sidebar-icon {
+    width: 50%;
+    justify-self: center;
+}
