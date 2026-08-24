@@ -94,3 +94,35 @@ input[type="search"]
     font-weight: bold;
     font-size: large;
 }
+
+.profile-info {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.welcome p {
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+    justify-content: end;
+    align-items: center;
+}
+
+.action-buttons button {
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    background-color: #1992D4;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 120px;
+}
