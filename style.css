@@ -76,7 +76,7 @@ input[type="search"]
     background-color: #E2E8F0;
     border: none;
     border-radius: 20px;
-    height: 60%;
+    height: 4ch;
     padding: 0 2ch;
 }
 
@@ -164,7 +164,8 @@ input[type="search"]
     display: grid;
     justify-content: end;
     grid-auto-flow: column;
-    gap: 20px;
+    gap: 30px;
+    padding-right: 10px;
 }
 
 .announcements-container {
@@ -224,11 +225,22 @@ input[type="search"]
     color: #9E9E9E;
 }
 
-svg {
+.sidebar svg {
     fill: #FFFFFF;
 }
 
-.sidebar-icon {
+.nav svg,
+.help svg,
+.header svg,
+.main-content svg
+{
     width: 50%;
     justify-self: center;
 }
+
+.profile svg,
+.main-content svg
+{
+    width: 25px;
+}
+
