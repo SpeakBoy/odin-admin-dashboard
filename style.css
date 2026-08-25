@@ -57,9 +57,9 @@ body {
     background-color: #E2E8F0;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 40px;
     padding: 40px 30px;
+    align-content: start;
 }
 
 .projects-container {
@@ -231,16 +231,20 @@ input[type="search"]
 
 .nav svg,
 .help svg,
-.header svg,
-.main-content svg
+.header-top svg,
+.project svg
 {
     width: 50%;
     justify-self: center;
 }
 
 .profile svg,
-.main-content svg
+.project svg
 {
     width: 25px;
+}
+
+.profile-info svg {
+    width: 100px;
 }
 
